@@ -1,6 +1,7 @@
 h1{color: white;}
 *{color: white;}
 h1{text-align: center;}
-#col-izquierda{width: 45%;}
-#col-derecha{width: 45%; float: right; display: inline;position:top;}
-#logo-header{position: fixed;position: top;}
+#col-izquierda{width: 33%;float: left;}
+#col-derecha{width: 33%; float:right;}
+
+
