@@ -6,11 +6,15 @@ h2{text-align: center;}
 #col-izquierda{width: 73%;float: left;justify-content: center;align-items: center;}
 #col-derecha{width: 27%; float:right;align-items: center;justify-content: center;width: px;}
 #logo-header{width: 97%;}
-#logo-copas{align-items: center;justify-content: center;width: 80%;}
-#Logito{width:40%;}
-#jugadores{width: 79.5%;;}
+#logo-copas{align-items: center;justify-content: center;width: 95%;}
+#Logito{width:50%;}
+#jugadores{width: 95%;;}
 footer{text-align: center;justify-content: center;float: inline-start;}
 #logo-reserva{width: 97%;height: max-content;}
 #logo-pipa{width:97%;}
-#logo-twitter{width: 18%;}
-
+#logo-twitter{width: 21%;}
+#logo-fifa{width: 10%;}
+b{color: grey;}
+#logo-adidasarriba{width: 5%;}
+#logo-adidasarriba{justify-content: right;}
+#p1{
