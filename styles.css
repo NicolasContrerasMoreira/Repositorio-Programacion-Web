@@ -7,14 +7,19 @@ h2{text-align: center;}
 #col-derecha{width: 27%; float:right;align-items: center;justify-content: center;width: px;}
 #logo-header{width: 97%;}
 #logo-copas{align-items: center;justify-content: center;width: 95%;}
-#Logito{width:50%;}
+#Logito{width:45%;}
 #jugadores{width: 95%;;}
-footer{text-align: center;justify-content: center;float: inline-start;}
+footer{float: middle;display: center;justify-content: center;}
 #logo-reserva{width: 97%;height: max-content;}
 #logo-pipa{width:97%;}
-#logo-twitter{width: 21%;}
-#logo-fifa{width: 10%;}
+#logo-twitter{width: 23%;}
+#logo-sponsors{width: 8%;}
 b{color: grey;}
-#logo-adidasarriba{width: 5%;}
+#logo-adidasarriba{width: 38%;}
 #logo-adidasarriba{justify-content: right;}
-#p1{
+#titulo-izq{float: middle;text-align: center;}
+#titulo-der{float: right;}
+#global{text-align: center;}
+#logo-bocaarriba{width: 40%;}
+#logo-titulo{float: left;}
+#logo-rexona{width: 8;}
