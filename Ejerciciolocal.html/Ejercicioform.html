@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio</title>
+</head>
+<body>
+    <label for="name">Nombre</label>
+    <input name= "name" id="nombreingresado" type="text">
+    <br>
+    <label for="apellido">apellido</label>
+    <input apelldi="apellido" id="apellido" type="text">
+    <br>
+    <label for="edad">edad</label>
+    <input edad="edad" id="edadingresada" type="text">
+    <input type="button" value="guardar variable" onclick="guardardata()">
+
+    <script src="ejlocalstorage.js" oninput="guardardata()"></script>
+    <script src="localstorage.js" oninput="guardardata()"></script>
+    <input type="button" value="Guardar variable" onclick="guardardata()">
+    <input type="button" onclick="borrardata()" value="borrar">
+    <input type="button" value="borrar solo nombre" onclick="borrarundato()">
