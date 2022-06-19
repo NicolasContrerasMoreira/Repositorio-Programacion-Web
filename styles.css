@@ -7,9 +7,9 @@
   .titulo {
     text-align: center;
     color: black;
-background-color: whitesmoke;
-padding: 1%;
-font-family: 'Times New Roman', Times, serif;}
+    background-color: whitesmoke;
+    padding: 1%;
+    font-family: 'Times New Roman', Times, serif;}
 
 .button {
     color: black;
@@ -109,10 +109,7 @@ font-family: 'Times New Roman', Times, serif;}
     background-color: lightgray;
     color: black;
   }
-  * {
-    box-sizing: border-box;
-  }
-  .logoreina{margin-left: ;}
+  
   .slideshow-container {
     max-width: max-content;
     position: relative;
