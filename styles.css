@@ -2,31 +2,36 @@
     background-color:whitesmoke;
     justify-content: center;
     padding: 3px;
-    border-radius: 0px;}
+    border-radius: 0px;
+}
 
 .titulo {
     text-align: center;
     color: black;
     background-color: whitesmoke;
     padding: 1%;
-    font-family: 'Times New Roman', Times, serif;}
+    font-family: 'Times New Roman', Times, serif;
+}
 
 .button {
     color: black;
     padding: 20px;
     padding-left: 25px;
     padding-right: 25px;
-    font-family: 'Times New Roman', Times, serif; font-weight: bold;}
+    font-family: 'Times New Roman', Times, serif; font-weight: bold;
+}
  
 .button:hover {
     background-color: black;
-    padding-top: 15px;}
+    padding-top: 15px;
+}
   
 .boton4 {
     color: black;
     margin-right: 20px;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: bold}
+    font-weight: bold
+}
   
 .subtitulo1 {
     color: black;
@@ -34,7 +39,8 @@
     background-color: whitesmoke;
     padding: 40px;
     margin: 0px;
-    font-family: 'Times New Roman', Times, serif;}
+    font-family: 'Times New Roman', Times, serif;
+}
 
 .subtitulo2 {
     color: black;
@@ -42,12 +48,14 @@
     background-color: whitesmoke;
     padding: 30px;
     margin: 0px;
-    font-family: 'Times New Roman', Times, serif;}
+    font-family: 'Times New Roman', Times, serif;
+}
 
 .etiquetas {
     background-color:black;
     color: white;
-    font-family: 'Times New Roman', Times, serif;}
+    font-family: 'Times New Roman', Times, serif;
+}
   
 .fila1 {
     justify-content: center;
@@ -62,7 +70,8 @@
 .card {
     background-color: black;
     margin: 50px;
-    border-color: whitesmoke;}
+    border-color: whitesmoke;
+}
  
 .textocalculadora {
     padding-top: 26px;
@@ -72,40 +81,48 @@
     background-color: lightgray;
     color: black;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;}
+    font-family: 'Times New Roman', Times, serif;
+}
 
 .zona_calculo {
     margin-top: 10px;
     text-align: center;
     font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;}
+    font-family: 'Times New Roman', Times, serif;
+}
 
 .text-muted {
     margin-left: 3px;
-    margin-right: 3px;}
+    margin-right: 3px;
+}
 
-@media only screen and (max-width: 414px) {.logo {display: none;}}
+@media only screen and (max-width: 414px) {.logo {display: none;}
+}
   
 .botonagregarcarrito {
     background-color: lightgray;
-    color: black;}
+    color: black;
+}
 
 .botonagregarcarrito:hover{
     background-color: aliceblue;
-    padding-top: 0px;}
+    padding-top: 0px;
+}
 
 .botoncarrito {
     background-color: lightgray;
-    color: black;}
+    color: black;
+}
   
 .slideshow-container {
     max-width: max-content;
     position: relative;
-    margin: auto;}
+    margin: auto;
+}
  
 .mySlides {
-    display: none;}
-  
+    display: none;
+}
   
 .next {
     cursor: pointer;
@@ -119,34 +136,35 @@
     font-size: 18px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
-    user-select: none;}
+    user-select: none;
+}
   
-
 .next {
     right: 0;
-    border-radius: 3px 0 0 3px;}
+    border-radius: 3px 0 0 3px;
+}
   
 .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);}
+    background-color: rgba(0, 0, 0, 0.8);
+}
   
- 
-.text {
+ .text {
     color: #f2f2f2;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
     width: 100%;
-    text-align: center;}
+    text-align: center;
+}
   
- 
 .numbertext {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
-    top: 0;}
-  
+    top: 0;
+}
   
 .dot {
     cursor: pointer;
@@ -156,11 +174,14 @@
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
-    transition: background-color 0.6s ease;}
+    transition: background-color 0.6s ease;
+}
   
 .dot:hover {
-    background-color: #717171;}
+    background-color: #717171;
+}
   
   
-@keyframes fade {from {opacity: 0.4;} to {opacity: 1;}}
+@keyframes fade {from {opacity: 0.4;} to {opacity: 1;}
+}
   
