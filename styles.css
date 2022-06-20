@@ -4,7 +4,7 @@
     padding: 3px;
     border-radius: 0px;}
 
-  .titulo {
+.titulo {
     text-align: center;
     color: black;
     background-color: whitesmoke;
@@ -16,22 +16,19 @@
     padding: 20px;
     padding-left: 25px;
     padding-right: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-  }
-  .button:hover {
+    font-family: 'Times New Roman', Times, serif; font-weight: bold;}
+ 
+.button:hover {
     background-color: black;
-    padding-top: 15px;
-  }
+    padding-top: 15px;}
   
-  .boton4 {
+.boton4 {
     color: black;
     margin-right: 20px;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: bold
-  }
+    font-weight: bold}
   
-  .slogan {
+.subtitulo1 {
     color: black;
     text-align: center;
     background-color: whitesmoke;
@@ -39,7 +36,7 @@
     margin: 0px;
     font-family: 'Times New Roman', Times, serif;}
 
-  .slogan2 {
+.subtitulo2 {
     color: black;
     text-align: center;
     background-color: whitesmoke;
@@ -47,31 +44,27 @@
     margin: 0px;
     font-family: 'Times New Roman', Times, serif;}
 
-  .productos {
+.etiquetas {
     background-color:black;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
-  }
+    font-family: 'Times New Roman', Times, serif;}
   
-  .fila1 {
+.fila1 {
     justify-content: center;
     display: flex;
-    flex-wrap: wrap;
-  }
-  .fila2 {
+    flex-wrap: wrap;}
+
+.fila2 {
     justify-content: center;
     display: flex;
-    flex-wrap: wrap;
-    
-  }
+    flex-wrap: wrap;}
   
-  .card {
+.card {
     background-color: black;
     margin: 50px;
-    border-color: whitesmoke;
-  }
+    border-color: whitesmoke;}
  
-  .textocalculadora {
+.textocalculadora {
     padding-top: 26px;
     padding-left: 0%;
     padding-bottom: 1px;
@@ -79,49 +72,42 @@
     background-color: lightgray;
     color: black;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  .zona_calculo {
+    font-family: 'Times New Roman', Times, serif;}
+
+.zona_calculo {
     margin-top: 10px;
     text-align: center;
     font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  .text-muted {
+    font-family: 'Times New Roman', Times, serif;}
+
+.text-muted {
     margin-left: 3px;
-    margin-right: 3px;
-  }
-  @media only screen and (max-width: 414px) {
-    .logo {
-      display: none;
-    }
-  }
+    margin-right: 3px;}
+
+@media only screen and (max-width: 414px) {.logo {display: none;}}
   
-  .botonagregarcarrito {
+.botonagregarcarrito {
     background-color: lightgray;
-    color: black;
-  }
-  .botonagregarcarrito:hover{
+    color: black;}
+
+.botonagregarcarrito:hover{
     background-color: aliceblue;
-    padding-top: 0px;
-  }
-  .botoncarrito {
+    padding-top: 0px;}
+
+.botoncarrito {
     background-color: lightgray;
-    color: black;
-  }
+    color: black;}
   
-  .slideshow-container {
+.slideshow-container {
     max-width: max-content;
     position: relative;
-    margin: auto;
-      }
+    margin: auto;}
  
-  .mySlides {
-    display: none;
-  }
+.mySlides {
+    display: none;}
   
-  .prev,
-  .next {
+  
+.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -133,43 +119,36 @@
     font-size: 18px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
+    user-select: none;}
   
 
-  .next {
+.next {
     right: 0;
-    border-radius: 3px 0 0 3px;
-  }
+    border-radius: 3px 0 0 3px;}
+  
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);}
   
  
-  .prev:hover,
-  .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  
- 
-  .text {
+.text {
     color: #f2f2f2;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
     width: 100%;
-    text-align: center;
-  }
+    text-align: center;}
   
  
-  .numbertext {
+.numbertext {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
-    top: 0;
-  }
+    top: 0;}
   
   
-  .dot {
+.dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -177,23 +156,11 @@
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
-    transition: background-color 0.6s ease;
-  }
+    transition: background-color 0.6s ease;}
   
-  .active,
-  .dot:hover {
-    background-color: #717171;
-  }
+.dot:hover {
+    background-color: #717171;}
   
   
-  
-  
-  @keyframes fade {
-    from {
-      opacity: 0.4;
-    }
-    to {
-      opacity: 1;
-    }
-  }
+@keyframes fade {from {opacity: 0.4;} to {opacity: 1;}}
   
