@@ -4,7 +4,7 @@ function sumarprecio(valorproducto) {
   Total = Total + valorproducto;
   document.getElementById("Total").innerHTML =
     "TOTAL: " + "$" + Total + " Pesos";
-}
+}   
 
 function Borrar() {
   Total = 0;
